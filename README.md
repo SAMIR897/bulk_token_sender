@@ -1,6 +1,6 @@
 # 📦 Bulk Token Sender
 
-A Rust CLI tool that simulates batch ETH transfers to multiple addresses from a CSV file. Connects to a live Ethereum RPC for chain context.
+A high-performance Rust utility designed for efficient batch distribution of ERC-20 tokens and native assets. It enables developers to execute transactions to hundreds of recipients in a single call, significantly reducing gas costs and manual overhead. Built with safety and speed in mind, it's ideal for airdrops and payroll distributions.
 
 ## Features
 
@@ -46,4 +46,4 @@ Simulating send of 0.5 ETH (500000000000000000 wei) to 0x1111...1111
 - `ethers` — Ethereum toolkit (address validation, unit conversion)
 - `csv` — CSV file parsing
 - `serde` — Deserialization
-- `tokio` — Async runtime
+- `tokio` — Asynchronous runtime
